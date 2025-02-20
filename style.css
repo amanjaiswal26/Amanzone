@@ -19,9 +19,9 @@
 }
     
 .logo{
-    background-image: url("img/amazon\ logo.png");
+    /* background-image: url("img/amazon\ logo.png"); */
     background-size: cover;
-    height: 45px;
+    height: 50px;
     width: 95px;
     
 }
@@ -131,8 +131,9 @@
     }
   
 .background{
-    background-image: url(img/amazon.jpg);
-    background-size: cover;
+    /* background-image: url(img/amazon.jpg); */
+    width: 1520px;
+    background-size: cover; 
     height: 380px;
     display: flex;
     align-items: end;
@@ -143,7 +144,7 @@
     color: rgb(65, 65, 197);
     margin-left: 4px;
 }
- .divider{
+ /* .divider{
     background-color: white;
     width: 95%;
     height: 46px;
@@ -154,12 +155,12 @@
    font-size: 17px;
    margin-bottom: 19px;
    
-} 
+}  */
 .box{
    background-color: #dfedea;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 19px;
+    margin-top: 15px;
 }
 .bare{
     background-color:#dfedea;
@@ -170,7 +171,7 @@
 }
 .back{
     height: 280px;
-    width: 400px;
+    width: 320px;
     background-size: cover;
     margin-top: 14px;
     /* border: 2px solid black; */
@@ -184,7 +185,7 @@
 } 
   .gap{
     margin-top: 13px;
-    margin-left: 19px;
+    margin-left: 18px;
     background-color:#dfedea;
   }
   .foot{
